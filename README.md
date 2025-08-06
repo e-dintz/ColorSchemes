@@ -19,13 +19,13 @@ ColorSchemes = cs.ColorSchemes()
 # to display sixteen random examples of color schemes using matplotlib
 ColorSchemes.display_examples()
 ```
-<img src="/images/display_examples.png.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/display_examples.png.png" align="center" alt="Color Scheme Examples">
 ```
 # to display a specific example color scheme, such as this nice rainbow pallette
 # shows the scheme using matplotlib and the hex values for each color
 ColorSchemes.display_scheme('red_orange28')
 ```
-<img src="/images/display_scheme.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/display_scheme.png" align="center" alt="Color Scheme Examples">
 ```
 # for a particular color scheme, you can access different attributes
 # this gives you a list of the hex values within this particular scheme
@@ -66,7 +66,7 @@ ColorSchemes.colorblindness_test('#001860')
 # powered by matplotlib, it will return a figure of 6 labeled panels
 ColorSchemes.scheme_colorblindness('violet_red13')
 ```
-<img src="/images/scheme_colorblindness.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/scheme_colorblindness.png" align="center" alt="Color Scheme Examples">
 ```
 # if you have a custom list of hexcodes that you want to simulate colorblind-friendliness for, then use the
 # custom_colorblindness function. takes in a list of hexcoes as an input and returns six panels similar to above
@@ -74,21 +74,20 @@ ColorSchemes.scheme_colorblindness('violet_red13')
 ColorSchemes.custom_colorblindness(['#E73155', '#C72559', '#A7195E', '#860C62', '#670067','#00154A',
                                     '#002F59', '#6B6159', '#F9A516', '#FFBA5F'])
 ```
-<img src="/images/custom_colorblindness.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/custom_colorblindness.png" align="center" alt="Color Scheme Examples">
 ```
 # if you want to convert any of the schemes within this package into custom continuous matplotlib colormaps,
 # use the scheme_to_cmap function. it takes in a scheme name as an input and returns a matplotlib colormap.
 # it uses the matplotlib pyplot function LinearSegmentedColormap
 cmap = ColorSchemes.scheme_to_cmap('orange17')
 ```
-<img src="/images/scheme_to_cmap.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/scheme_to_cmap.png" align="center" alt="Color Scheme Examples">
 ```
 # making a multivariable function to plot our new colormap
 y, x = np.meshgrid(np.linspace(-3, 3, 100), np.linspace(-3, 3, 100))
 z = (1 - x / 2. + x ** 5 + y ** 3) * np.exp(-x ** 2 - y ** 2)
 z = z[:-1, :-1]
 z_min, z_max = -np.abs(z).max(), np.abs(z).max()
-
 # making a heatmap using the colormap
 fig, ax = plt.subplots()
 c = ax.pcolormesh(x, y, z, cmap=cmap)
@@ -98,11 +97,11 @@ ax.axis([x.min(), x.max(), y.min(), y.max()])
 fig.colorbar(c, ax=ax)
 plt.show()
 ```
-<img src="/images/custom_heatmap.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/custom_heatmap.png" align="center" alt="Color Scheme Examples">
 ```
 # you can also use this function for a custom list with the custom_scheme_to_cmap
 cmap = ColorSchemes.custom_scheme_to_cmap(['#E73155', '#C72559', '#A7195E', '#860C62', '#670067','#00154A', '#002F59', '#6B6159', '#F9A516', '#FFBA5F'])
 ```
-<img src="/images/custom_scheme_to_cmap.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<img src="/images/custom_scheme_to_cmap.png" align="center" alt="Color Scheme Examples">
 ```
 [1] Monsef, D. A. (2011). Color Inspirations: More Than 3,000 Innovative Palettes from the Colourlovers. Com Community. Simon and Schuster.
