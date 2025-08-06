@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI version](https://badge.fury.io/py/colorschemes.svg)](https://badge.fury.io/py/colorschemes)
 
-A package for aesthetically pleasing and colorblindness-friendly color schemes
+## A package for aesthetically pleasing and colorblindness-friendly color schemes
 
-Copyright 2025 Ethan Dintzner
+<i>Copyright 2025 Ethan Dintzner</i>
 
 A collection of several hundred multicolor palettes from Color Inspirations by Darius A. Monsef IV. [1] 
 Additionally includes a series of functions that allow you to browse color pallets, test colorblind friendliness for inbuilt or custom pallets, produce matplotlib-compatible continuous colormaps, and convert from RGB to HEX. 
@@ -73,7 +73,7 @@ ColorSchemes.scheme_colorblindness('violet_red13')
 <img src="/images/scheme_colorblindness.png" align="center" alt="Color Scheme Examples">
 
 
-If you have a custom list of hexcodes that you want to simulate colorblind-friendliness for, then use the <tt>custom_colorblindness function</tt>. It takes in a list of hexcodes as an input and returns six panels similar to above as an output.
+If you have a custom list of hexcodes that you want to simulate colorblind-friendliness for, then use the <tt>custom_colorblindness</tt> function. It takes in a list of hexcodes as an input and returns six panels similar to above as an output.
 ```
 ColorSchemes.custom_colorblindness(['#E73155', '#C72559', '#A7195E', '#860C62', '#670067','#00154A',
                                     '#002F59', '#6B6159', '#F9A516', '#FFBA5F'])
