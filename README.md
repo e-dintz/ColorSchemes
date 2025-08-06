@@ -8,7 +8,7 @@ A package for aesthetically pleasing and colorblindness-friendly color schemes
 Copyright 2025 Ethan Dintzner
 
 A collection of several hundred multicolor palettes from Color Inspirations by Darius A. Monsef IV. [1] 
-Additionally includes a series of functions that allow you to browse color pallets, test colorblind friendliness for inbuilt or custom pallets, produce matplotlib-compatible continuous colormaps, and convert from RGB to HEX.
+Additionally includes a series of functions that allow you to browse color pallets, test colorblind friendliness for inbuilt or custom pallets, produce matplotlib-compatible continuous colormaps, and convert from RGB to HEX. 
 
 Below is an example of using this package:
 ```
