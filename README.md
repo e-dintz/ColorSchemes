@@ -30,7 +30,7 @@ ColorSchemes.display_scheme('red_orange28')
 # this gives you a list of the hex values within this particular scheme
 ColorSchemes.red_orange19.colors
 ```
-\texttt{['#001860', '#036B2E', '#F09000', '#F06018', '#C00000']}
+<tt>['#001860', '#036B2E', '#F09000', '#F06018', '#C00000']</tt>
 ```
 # this prints a string for the name of the color scheme
 ColorSchemes.red_orange19.name
