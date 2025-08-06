@@ -18,7 +18,9 @@ ColorSchemes = cs.ColorSchemes()
 # to display sixteen random examples of color schemes using matplotlib
 ColorSchemes.display_examples()
 ```
-<img src="/images/display_examples" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
+<div style="text-align: center;">
+  <img src="/images/display_examples.png" style="max-width:100%; height:auto;" alt="Color Scheme Examples">
+</div>
 ```
 # to display a specific example color scheme, such as this nice rainbow pallette
 # shows the scheme using matplotlib and the hex values for each color
