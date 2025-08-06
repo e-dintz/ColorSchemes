@@ -15,10 +15,13 @@ Below is an example of using this package:
 ```
 import colorschemes as cs
 ColorSchemes = cs.ColorSchemes()
+
 # to display sixteen random examples of color schemes using matplotlib
 ColorSchemes.display_examples()
 ```
+
 <img src="/images/display_examples.png.png" align="center" alt="Color Scheme Examples">
+
 ```
 # to display a specific example color scheme, such as this nice rainbow pallette
 # shows the scheme using matplotlib and the hex values for each color
