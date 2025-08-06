@@ -17,15 +17,21 @@ ColorSchemes = cs.ColorSchemes()
 
 # to display sixteen random examples of color schemes using matplotlib
 ColorSchemes.display_examples()
-
+```
+<img align="center" /images/display_examples.png>
+```
 # to display a specific example color scheme, such as this nice rainbow pallette
 # shows the scheme using matplotlib and the hex values for each color
-ColorSchemes.display_scheme('red_orange19)
-
+ColorSchemes.display_scheme('red_orange28')
+```
+<img align="center" /images/display_scheme.png>
+```
 # for a particular color scheme, you can access different attributes
 # this gives you a list of the hex values within this particular scheme
 ColorSchemes.red_orange19.colors
-
+```
+\texttt{['#001860', '#036B2E', '#F09000', '#F06018', '#C00000']}
+```
 # this prints a string for the name of the color scheme
 ColorSchemes.red_orange19.name
 
