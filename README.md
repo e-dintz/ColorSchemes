@@ -10,88 +10,85 @@ Copyright 2025 Ethan Dintzner
 A collection of several hundred multicolor palettes from Color Inspirations by Darius A. Monsef IV. [1] 
 Additionally includes a series of functions that allow you to browse color pallets, test colorblind friendliness for inbuilt or custom pallets, produce matplotlib-compatible continuous colormaps, and convert from RGB to HEX. 
 
-Below is an example of using this package:
+Below are examples of using this package:
 
 ```
 import colorschemes as cs
 ColorSchemes = cs.ColorSchemes()
-
-# to display sixteen random examples of color schemes using matplotlib
+```
+The first function <tt>display_examples</tt> will display sixteen random examples of color schemes using <tt>matplotlib</tt>. It is a nice way to explore new color schemes.
+```
 ColorSchemes.display_examples()
 ```
 
 <img src="/images/display_examples.png" align="center" alt="Color Scheme Examples">
 
+To display a specific example color scheme in detail, such as this red-orange pallette, utilize the <tt>display_scheme</tt> function. It will plot the scheme using matplotlib and display the hex values for each color.
 ```
-# to display a specific example color scheme, such as this nice rainbow pallette
-# shows the scheme using matplotlib and the hex values for each color
 ColorSchemes.display_scheme('red_orange28')
 ```
 
 <img src="/images/display_scheme.png" align="center" alt="Color Scheme Examples">
 
+For a particular color scheme, you can access several different attributes including the hexcodes for the colors (<tt>colors</tt>), the harmony type (<tt>harmony</tt>), and the actual name (<tt>name</tt>). The <tt>colors</tt> attribute gives you a list of the hex values within this particular scheme, e.g.
 ```
-# for a particular color scheme, you can access different attributes
-# this gives you a list of the hex values within this particular scheme
 ColorSchemes.red_orange19.colors
 ```
 <tt>['#001860', '#036B2E', '#F09000', '#F06018', '#C00000']</tt>
+
+An example of using the <tt>name</tt> attribute is as such:
 ```
-# this prints a string for the name of the color scheme
 ColorSchemes.red_orange19.name
 ```
 <tt>'red_orange19'</tt>
+
+And finally for displaying the harmony type for this particular color scheme using <tt>harmony</tt>:
 ```
-# this prints a string indicating the type of harmony for the scheme, e.g. complementary, monochromatic, triadic, etc.
 ColorSchemes.red_orange19.harmony
 ```
 <tt>'split-complementary'</tt>
+This package has an inbuilt function to convert from hex to RGB called <tt>hex_to_rgb</tt>. It returns a 3-element list, e.g.
 ```
-# to convert hex to RGB, one can use the inbuilt function hex_to_rgb. returns a 3-element list
 ColorSchemes.hex_to_rgb('#001860')
 ```
 <tt>[0, 24, 96]</tt>
 ```
-# to convert RGB to hex, there is an inverse function called rgb_to_hex
+To convert RGB to hex, there is an inverse function called <tt>rgb_to_hex</tt> that is used similarly. The input is a 3-element list and the output is a string,
 ColorSchemes.rgb_to_hex([0, 24, 96])
 ```
 <tt>'#001860'</tt>
+
+To simulate colorblindness for a particular hexcode color, use the <tt>colorblindness_test</tt> function. It returns a very simple matrix-transformation based simulation of Protanopia, Deuteranopia, Tritanopia, Protanomaly and Deuteranomaly disorders based on matrices from <tt>https://gist.github.com/Lokno/df7c3bfdc9ad32558bb7?permalink_comment_id=3943065</tt>. It is used for individual colors as such:
 ```
-# to simulate colorblindness for a particular hexcode color, use the colorblindness_test function
-# it returns a very simple matrix-transformation based simulation of Protanopia, Deuteranopia, Tritanopia,
-# Protanomaly and Deuteranomaly disorders.
-# based on matrices from https://gist.github.com/Lokno/df7c3bfdc9ad32558bb7?permalink_comment_id=3943065
 ColorSchemes.colorblindness_test('#001860')
 ```
 <tt>['#0a0a4e', '#09074a', '#01403d', '#041057', '#041155']</tt>
+
+To view a particular scheme from this package with the five simulated colorblindness disorders from above, run the <tt>scheme_colorblindness</tt> function on a scheme name within this package. for instance <tt>'violet_red13'</tt>. Powered by <tt>matplotlib</tt>, it will return a figure of 6 labeled panels if you run this:
 ```
-# to view a particular scheme from this package with the five simulated colorblindness disorders from above,
-# run the scheme_colorblindness function on a scheme name within this package. for instance 'violet_red13'.
-# powered by matplotlib, it will return a figure of 6 labeled panels
 ColorSchemes.scheme_colorblindness('violet_red13')
 ```
 
 <img src="/images/scheme_colorblindness.png" align="center" alt="Color Scheme Examples">
 
+
+If you have a custom list of hexcodes that you want to simulate colorblind-friendliness for, then use the <tt>custom_colorblindness function</tt>. It takes in a list of hexcodes as an input and returns six panels similar to above as an output.
 ```
-# if you have a custom list of hexcodes that you want to simulate colorblind-friendliness for, then use the
-# custom_colorblindness function. takes in a list of hexcoes as an input and returns six panels similar to above
-# as an output.
 ColorSchemes.custom_colorblindness(['#E73155', '#C72559', '#A7195E', '#860C62', '#670067','#00154A',
                                     '#002F59', '#6B6159', '#F9A516', '#FFBA5F'])
 ```
 
 <img src="/images/custom_colorblindness.png" align="center" alt="Color Scheme Examples">
 
+
+If you want to convert any of the schemes within this package into custom continuous <tt>matplotlib</tt> colormaps, use the <tt>scheme_to_cmap</tt> function. It takes in a scheme name as an input and returns a <tt>matplotlib</tt>-compatible colormap. It uses the <tt>matplotlib.pyplot</tt> function <tt>LinearSegmentedColormap</tt> to achieve this.
 ```
-# if you want to convert any of the schemes within this package into custom continuous matplotlib colormaps,
-# use the scheme_to_cmap function. it takes in a scheme name as an input and returns a matplotlib colormap.
-# it uses the matplotlib pyplot function LinearSegmentedColormap
 cmap = ColorSchemes.scheme_to_cmap('orange17')
 ```
 
 <img src="/images/scheme_to_cmap.png" align="center" alt="Color Scheme Examples">
 
+Here is an example of making a plot from a colormap generating using a scheme from ColorSchemes:
 ```
 # making a multivariable function to plot our new colormap
 y, x = np.meshgrid(np.linspace(-3, 3, 100), np.linspace(-3, 3, 100))
@@ -110,8 +107,9 @@ plt.show()
 
 <img src="/images/custom_heatmap.png" align="center" alt="Color Scheme Examples">
 
+
+You can also use this package for a custom list with the <tt>custom_scheme_to_cmap</tt> function:
 ```
-# you can also use this function for a custom list with the custom_scheme_to_cmap
 cmap = ColorSchemes.custom_scheme_to_cmap(['#E73155', '#C72559', '#A7195E', '#860C62', '#670067','#00154A', '#002F59', '#6B6159', '#F9A516', '#FFBA5F'])
 ```
 
