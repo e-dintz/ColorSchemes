@@ -47,6 +47,7 @@ And finally for displaying the harmony type for this particular color scheme usi
 ColorSchemes.red_orange19.harmony
 ```
 <tt>'split-complementary'</tt>
+
 This package has an inbuilt function to convert from hex to RGB called <tt>hex_to_rgb</tt>. It returns a 3-element list, e.g.
 ```
 ColorSchemes.hex_to_rgb('#001860')
