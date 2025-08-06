@@ -1,0 +1,5 @@
+build
+ColorSchemes.egg-info/
+__pycache__
+doc/_build
+dist/
