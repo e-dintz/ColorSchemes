@@ -23,13 +23,11 @@ ColorSchemes.display_examples()
   <img src="/images/display_examples.png" style="max-width:25%; height:auto;" alt="Color Scheme Examples">
 </div>
 ```
-```
 # to display a specific example color scheme, such as this nice rainbow pallette
 # shows the scheme using matplotlib and the hex values for each color
 ColorSchemes.display_scheme('red_orange28')
 ```
 <img src="/images/display_scheme.png" align="center" alt="Color Scheme Examples",style="max-width:50%; height:auto;">
-```
 ```
 # for a particular color scheme, you can access different attributes
 # this gives you a list of the hex values within this particular scheme
