@@ -19,7 +19,7 @@ ColorSchemes = cs.ColorSchemes()
 ColorSchemes.display_examples()
 ```
 <div style="text-align: center;">
-  <img src="/images/display_examples.png" style="max-width:50%; height:auto;" alt="Color Scheme Examples">
+  <img src="/images/display_examples.png" style="max-width:25%; height:auto;" alt="Color Scheme Examples">
 </div>
 ```
 # to display a specific example color scheme, such as this nice rainbow pallette
