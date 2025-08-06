@@ -52,8 +52,9 @@ This package has an inbuilt function to convert from hex to RGB called <tt>hex_t
 ColorSchemes.hex_to_rgb('#001860')
 ```
 <tt>[0, 24, 96]</tt>
-```
+
 To convert RGB to hex, there is an inverse function called <tt>rgb_to_hex</tt> that is used similarly. The input is a 3-element list and the output is a string,
+```
 ColorSchemes.rgb_to_hex([0, 24, 96])
 ```
 <tt>'#001860'</tt>
