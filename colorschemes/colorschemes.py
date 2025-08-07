@@ -2540,6 +2540,635 @@ class ColorSchemes:
             harmony='other'
         )
 
+        # page 192
+        self.pink1 = colors(
+            name='pink1',
+            colors=['#FF1158','#F7748A','#FA89AB','#FFBAC6','#FACDCD'],
+            harmony='monochromatic'
+        )
+
+        self.pink2 = colors(
+            name='pink2',
+            colors=['#FCC5E3','#FCCCE9','#FCD9EE','#FCE8F3','#FCF7FA'],
+            harmony='monochromatic'
+        )
+
+        self.pink3 = colors(
+            name='pink3',
+            colors=['#FCC5E3','#FCCCE9','#FCD9EE','#FCE8F3','#FCF7FA'],
+            harmony='monochromatic'
+        )
+
+        self.pink4 = colors(
+            name='pink4',
+            colors=['#67666D','#8C6667','#B3666A','#D96668','#FE666D'],
+            harmony='monochromatic'
+        )
+
+        # page 183
+        self.pink5 = colors(
+            name='pink5',
+            colors=['#DF4075','#DD6B93','#DA96B2','#D8C1D0','#D9E7EC'],
+            harmony='monochromatic'
+        )
+
+        self.pink6 = colors(
+            name='pink6',
+            colors=['#F1036A','#FC4F8E','#FA8AB3','#F7B8CF','#FCD7E4'],
+            harmony='monochromatic'
+        )
+
+        self.pink7 = colors(
+            name='pink7',
+            colors=['#A80F2B','#C45063','#C96C77','#D69AA2','#E1E2DD'],
+            harmony='monochromatic'
+        )
+
+        # page 184
+        self.pink8 = colors(
+            name='pink8',
+            colors=['#FBBFC4','#FDAAAC','#FC6E9D','#FCA104','#FADFAB'],
+            harmony='analogous'
+        )
+
+        self.pink9 = colors(
+            name='pink9',
+            colors=['#EC8A3F','#DE7C80','#D4598B','#E24D5E','#DB571A'],
+            harmony='analogous'
+        )
+
+        self.pink10 = colors(
+            name='pink10',
+            colors=['#CE5483','#D96D87','#E19599','#E9B1B0','#F5D3B0'],
+            harmony='analogous'
+        )
+
+        self.pink11 = colors(
+            name='pink11',
+            colors=['#B55E64','#CC585F','#E6535C','#E67253','#E69C53'],
+            harmony='analogous'
+        )
+
+        self.pink12 = colors(
+            name='pink12',
+            colors=['#A48AAC','#B48BAC','#C48CAC','#D48DAC','#E48EAC'],
+            harmony='analogous'
+        )
+
+        self.pink13 = colors(
+            name='pink13',
+            colors=['#FF70C1','#FF709D','#FF707A','#FF8A70','#FFAE70'],
+            harmony='analogous'
+        )
+
+        self.pink14 = colors(
+            name='pink14',
+            colors=['#C9718D','#FF99A0','#FF99D2','#FFAC99','#FFC599'],
+            harmony='analogous'
+        )
+
+        # page 185
+        self.pink15 = colors(
+            name='pink15',
+            colors=['#FBD3EC','#D98F90','#B63C57','#7B0E49','#581C5A'],
+            harmony='analogous'
+        )
+
+        self.pink16 = colors(
+            name='pink16',
+            colors=['#A50F8F','#D53992','#FC82B1','#FEACC3','#F8CDCF'],
+            harmony='analogous'
+        )
+
+        self.pink17 = colors(
+            name='pink17',
+            colors=['#D28086','#E390A0','#FFA48D','#FFB7A0','#CF99A9'],
+            harmony='analogous'
+        )
+
+        self.pink18 = colors(
+            name='pink18',
+            colors=['#FDD4AE','#F4C08F','#FF9196','#F17EA5','#F25F7C'],
+            harmony='analogous'
+        )
+
+        self.pink19 = colors(
+            name='pink19',
+            colors=['#FF919C','#FFB3D1','#FFDEEB','#DBB8FF','#B7A2E8'],
+            harmony='analogous'
+        )
+
+        # page 186
+        self.pink20 = colors(
+            name='pink20',
+            colors=['#1C2230','#31D498','#EBDEB2','#E6A21C','#FF1443'],
+            harmony='triadic'
+        )
+
+        # page 187
+        self.pink21 = colors(
+            name='pink21',
+            colors=['#413E92','#E43082','#F55D9F','#F5CB4B','#FDFD85'],
+            harmony='triadic'
+        )
+
+        self.pink22 = colors(
+            name='pink22',
+            colors=['#EEE37A','#E2B2A4','#D795B2','#CB688B','#6E739D'],
+            harmony='triadic'
+        )
+
+        self.pink23 = colors(
+            name='pink23',
+            colors=['#FAFAFA','#FFFDD4','#F2AAAA','#FF7897','#B0CCEB'],
+            harmony='triadic'
+        )
+
+        self.pink24 = colors(
+            name='pink24',
+            colors=['#FFFFCC','#FFCCCC','#FF99CC','#FF66CC','#9999CC'],
+            harmony='triadic'
+        )
+
+        # page 188
+        self.pink25 = colors(
+            name='pink25',
+            colors=['#C7C39D','#59967E','#546472','#4F3F4B','#CC3151'],
+            harmony='split-complementary'
+        )
+
+        self.pink26 = colors(
+            name='pink26',
+            colors=['#DBE8AE','#AEE8C4','#AB1A65','#C46496','#E0B4CB'],
+            harmony='split-complementary'
+        )
+
+        # page 189
+        self.pink27 = colors(
+            name='pink27',
+            colors=['#D188A4','#B7ADB3','#9DD1C2','#C0DAAC','#E3E299'],
+            harmony='split-complementary'
+        )
+
+        self.pink28 = colors(
+            name='pink28',
+            colors=['#AEF5D1','#D2F5AE','#F7F1F0','#D9B9B4','#EB8A91'],
+            harmony='split-complementary'
+        )
+
+        # page 190
+        self.pink29 = colors(
+            name='pink29',
+            colors=['#F0CFD6','#DC8E9C','#BD4C4E','#B7C43B','#86930F'],
+            harmony='complementary'
+        )
+
+        self.pink30 = colors(
+            name='pink30',
+            colors=['#494E51','#A5AFA9','#E8CDD8','#DDABC0','#BC7693'],
+            harmony='complementary'
+        )
+
+        self.pink31 = colors(
+            name='pink31',
+            colors=['#C7FFAD','#D5EDCA','#FCCCD8','#F593AA','#DE6884'],
+            harmony='complementary'
+        )
+
+        # page 191
+        self.pink32 = colors(
+            name='pink32',
+            colors=['#F291C7','#DE87C1','#A88C9F','#81998E','#84AB9C'],
+            harmony='complementary'
+        )
+
+        # page 192
+        self.pink33 = colors(
+            name='pink33',
+            colors=['#578D8F','#F7818D','#FFD79B','#BA5C76','#C38182'],
+            harmony='other'
+        )
+
+        self.pink34 = colors(
+            name='pink34',
+            colors=['#181B1E','#3A6657','#BD7D4F','#FFC147','#B5455E'],
+            harmony='other'
+        )
+
+        # page 193
+        self.pink35 = colors(
+            name='pink35',
+            colors=['#FCF290','#FFCDAD','#DEFFE1','#FF5DA0','#FABBD3'],
+            harmony='other'
+        )
+
+        # page 195
+        self.brown1 = colors(
+            name='brown1',
+            colors=['#EEBD67','#CC9638','#9C6C18','#744900','#412D0A'],
+            harmony='monochromatic'
+        )
+
+        self.brown2 = colors(
+            name='brown2',
+            colors=['#2B1301','#4A2001','#6E2F02','#913E03','#B85F1F'],
+            harmony='monochromatic'
+        )
+
+        # page 196
+        self.brown3 = colors(
+            name='brown3',
+            colors=['#593000','#874B07','#A6661E','#D19652','#E6CDB1'],
+            harmony='monochromatic'
+        )
+
+        self.brown4 = colors(
+            name='brown4',
+            colors=['#8D561F','#C07830','#F0C060','#A87830','#835716'],
+            harmony='monochromatic'
+        )
+
+        # page 197
+        self.brown5 = colors(
+            name='brown5',
+            colors=['#452C03','#5E3B03','#825C1F','#B57610','#FF9D00'],
+            harmony='analogous'
+        )
+
+        self.brown6 = colors(
+            name='brown6',
+            colors=['#7D4A0F','#59350B','#38250F','#184D47','#168075'],
+            harmony='analogous'
+        )
+
+        # page 198
+        self.brown7 = colors(
+            name='brown7',
+            colors=['#F1A85F','#5C2902','#36101B','#385F63','#D9845B'],
+            harmony='triadic'
+        )
+
+        self.brown8 = colors(
+            name='brown8',
+            colors=['#046857','#F8EEE1','#C06605','#7A1D4B','#532E0C'],
+            harmony='triadic'
+        )
+
+        self.brown9 = colors(
+            name='brown9',
+            colors=['#790227','#148C91','#B07831','#C9AC4F','#E3DF78'],
+            harmony='triadic'
+        )
+
+        self.brown10 = colors(
+            name='brown10',
+            colors=['#6D0826','#12575E','#E9B33E','#2A272A','#B18035'],
+            harmony='triadic'
+        )
+
+        # page 200
+        self.brown11 = colors(
+            name='brown11',
+            colors=['#9C7B57','#154744','#614938','#975102','#8F0B34'],
+            harmony='triadic'
+        )
+
+        self.brown12 = colors(
+            name='brown12',
+            colors=['#38543F','#473854','#9E2937','#9E5A29','#C26E32'],
+            harmony='triadic'
+        )
+
+        # page 201
+        self.brown13 = colors(
+            name='brown13',
+            colors=['#B09504','#A17324','#873C5C','#5C0C9C','#3E44DD'],
+            harmony='split-complementary'
+        )
+
+        # page 202
+        self.brown14 = colors(
+            name='brown14',
+            colors=['#3F1985','#AD316D','#A66E1B','#EB9310','#004E78'],
+            harmony='split-complementary'
+        )
+
+        self.brown15 = colors(
+            name='brown15',
+            colors=['#083480','#4B305E','#7F1604','#874707','#B37E05'],
+            harmony='split-complementary'
+        )
+
+        self.brown16 = colors(
+            name='brown16',
+            colors=['#9299E1','#A994BD','#BD856A','#9F5A21','#623307'],
+            harmony='split-complementary'
+        )
+
+        self.brown17 = colors(
+            name='brown17',
+            colors=['#A18970','#A1570D','#4D3459','#520A2F','#496391'],
+            harmony='split-complementary'
+        )
+
+        # page 203
+        self.brown18 = colors(
+            name='brown18',
+            colors=['#100923','#472551','#B16702','#E1CDAF','#F3E7DF'],
+            harmony='complementary'
+        )
+
+        # page 204
+        self.brown19 = colors(
+            name='brown19',
+            colors=['#CEC4FF','#C09EDE','#B07D9F','#AB6432','#9C471C'],
+            harmony='complementary'
+        )
+
+        self.brown20 = colors(
+            name='brown20',
+            colors=['#7085D6','#9B8FF7`','#FFD59A','#C58F54','#693C12'],
+            harmony='complementary'
+        )
+
+        # page 205
+        self.brown21 = colors(
+            name='brown21',
+            colors=['#88B29C','#EACC98','#D4A26F','#926A24','#4B1200'],
+            harmony='other'
+        )
+
+        self.brown22 = colors(
+            name='brown22',
+            colors=['#D9F0BA','#F8B214','#DA5218','#54370F','#9F8612'],
+            harmony='other'
+        )
+
+        self.brown23 = colors(
+            name='brown23',
+            colors=['#00305F','#247F92','#8E4803','#6F240F','#D8D08F'],
+            harmony='other'
+        )
+
+        # page 206
+        self.brown24 = colors(
+            name='brown24',
+            colors=['#87D1E0','#FFFDEB','#FDB169','#D66800','#4E2601'],
+            harmony='other'
+        )
+
+        self.brown25 = colors(
+            name='brown25',
+            colors=['#FFFBEB','#E3D15F','#DBB15C','#5C3617','#518A6D'],
+            harmony='other'
+        )
+
+        self.brown26 = colors(
+            name='brown26',
+            colors=['#FFAC4D','#FF7559','#D43535','#613400','#93BFC7'],
+            harmony='other'
+        )
+
+        # page 208
+        self.grey1 = colors(
+            name='grey1',
+            colors=['#F2F7F8','#E9EDED','#D1D5D6','#BCC0C1','#9FA2A2'],
+            harmony='monochromatic'
+        )
+
+        # page 209
+        self.grey2 = colors(
+            name='grey2',
+            colors=['#DDDDDD','#BBBBBB','#999999','#777777','#555555'],
+            harmony='monochromatic'
+        )
+
+        self.grey3 = colors(
+            name='grey3',
+            colors=['#706868','#827575','#998D8D','#B3AAAA','#D9D9D9'],
+            harmony='monochromatic'
+        )
+
+        self.grey4 = colors(
+            name='grey4',
+            colors=['#D4D9D5','#B3B7BA','#A1A3B0','#938EA3','#6A6773'],
+            harmony='monochromatic'
+        )
+
+        self.grey5 = colors(
+            name='grey5',
+            colors=['#333333','#555555','#999999','#CCCCCC','#EEEEEE'],
+            harmony='monochromatic'
+        )
+
+        # page 210
+        self.grey6 = colors(
+            name='grey6',
+            colors=['#FDEBBD','#EED8C2','#C0C0B8','#848484','#485050'],
+            harmony='analogous'
+        )
+
+        self.grey7 = colors(
+            name='grey7',
+            colors=['#E1F5F7','#D3DEEB','#CFCFCF','#B8B8BF','#A7A6AD'],
+            harmony='analogous'
+        )
+
+        self.grey8 = colors(
+            name='grey8',
+            colors=['#313138','#46464B','#5F696D','#84A2A4','#B9D6E2'],
+            harmony='analogous'
+        )
+
+        self.grey9 = colors(
+            name='grey9',
+            colors=['#342233','#5A4D55','#817777','#A7A299','#CDCCBB'],
+            harmony='analogous'
+        )
+
+        self.grey10 = colors(
+            name='grey10',
+            colors=['#3C373E','#544D57','#7F8582','#B0BAA6','#DDE1CD'],
+            harmony='analogous'
+        )
+
+        # page 211
+        self.grey11 = colors(
+            name='grey11',
+            colors=['#B1C4B7','#A4A698','#8C8382','#706B6F','#424242'],
+            harmony='analogous'
+        )
+
+        self.grey12 = colors(
+            name='grey12',
+            colors=['#9EA176','#697665','#4F5C59','#3C4144','#39393C'],
+            harmony='analogous'
+        )
+
+        # page 212
+        self.grey12 = colors(
+            name='grey12',
+            colors=['#6F5D69','#817579','#999B96','#ACAD9B','#CEC197'],
+            harmony='triadic'
+        )
+
+        self.grey13 = colors(
+            name='grey13',
+            colors=['#3C3A3D','#6D8582','#A0BDA5','#D5DCA6','#E6B36C'],
+            harmony='triadic'
+        )
+
+        self.grey14 = colors(
+            name='grey14',
+            colors=['#ACBEC4','#A6A6A6','#C4928F','#F28D85','#F0C390'],
+            harmony='triadic'
+        )
+
+        # page 213
+        self.grey15 = colors(
+            name='grey15',
+            colors=['#DFECCB','#BED4C0','#9CBBB3','#8D8F87','#7C6159'],
+            harmony='triadic'
+        )
+
+        self.grey16 = colors(
+            name='grey16',
+            colors=['#F0F0F0','#D8D8D8','#C0C0A8','#604848','#484848'],
+            harmony='triadic'
+        )
+
+        self.grey17 = colors(
+            name='grey17',
+            colors=['#FFF1DE','#FFE4E0','#E3D5D3','#C2C2C0','#999996'],
+            harmony='triadic'
+        )
+
+        self.grey18 = colors(
+            name='grey18',
+            colors=['#331329','#4E3E59','#7F8787','#91B599','#DBF79E'],
+            harmony='triadic'
+        )
+
+        self.grey19 = colors(
+            name='grey19',
+            colors=['#373B3B','#3B6566','#647070','#A69453','#FFC466'],
+            harmony='triadic'
+        )
+
+        # page 214
+        self.grey20 = colors(
+            name='grey20',
+            colors=['#ACA6A6','#D6D2D2','#F5F0F0','#FFDDDD','#FFB9B9'],
+            harmony='split-complementary'
+        )
+
+        self.grey21 = colors(
+            name='grey21',
+            colors=['#21211E','#4B4D45','#9AB997','#E8E26D','#F7BA3E'],
+            harmony='split-complementary'
+        )
+
+        self.grey22 = colors(
+            name='grey22',
+            colors=['#DADEA6','#4F8C9E','#73536B','#5E5252','#453C3C'],
+            harmony='split-complementary'
+        )
+
+        # page 215
+        self.grey23 = colors(
+            name='grey23',
+            colors=['#BA2913','#BA8213','#E39E14','#54514A','#1F1D1B'],
+            harmony='split-complementary'
+        )
+
+        self.grey24 = colors(
+            name='grey24',
+            colors=['#FADDAA','#B3CF88','#51694C','#292928','#585854'],
+            harmony='split-complementary'
+        )
+
+        # page 216
+        self.grey25 = colors(
+            name='grey25',
+            colors=['#44333D','#695661','#8B8385','#A4D8C3','#DEF5EC'],
+            harmony='complementary'
+        )
+
+        self.grey26 = colors(
+            name='grey26',
+            colors=['#FF7921','#FF9B21','#FFFFFF','#E0E0E0','#BBBBBB'],
+            harmony='complementary'
+        )
+
+        self.grey27 = colors(
+            name='grey27',
+            colors=['#EBDFBE','#FCB194','#B38B7B','#696663','#515557'],
+            harmony='complementary'
+        )
+
+        # page 217
+        self.grey28 = colors(
+            name='grey28',
+            colors=['#695A5A','#927575','#9EC4B4','#D2EBE1','#737976'],
+            harmony='complementary'
+        )
+
+        # page 218
+        self.grey29 = colors(
+            name='grey29',
+            colors=['#1D1D1F','#3C3847','#4B656B','#BF934D','#BD3A20'],
+            harmony='other'
+        )
+
+        self.grey30 = colors(
+            name='grey30',
+            colors=['#423B32','#42544C','#A1AE76','#EBDCCC','#C79093'],
+            harmony='other'
+        )
+
+        # page 219
+        self.grey31 = colors(
+            name='grey31',
+            colors=['#2B3447','#676B73','#C7C7C7','#E6E3C8','#FFFACF'],
+            harmony='other'
+        )
+
+        self.grey32 = colors(
+            name='grey32',
+            colors=['#494036','#251915','#2F7A77','#FCFFE0','#B1461B'],
+            harmony='other'
+        )
+
+        self.grey33 = colors(
+            name='grey33',
+            colors=['#494036','#251915','#2F7A77','#FCFFE0','#B1461B'],
+            harmony='other'
+        )
+
+        self.grey34 = colors(
+            name='grey34',
+            colors=['#495250','#637068','#6B856A','#9B9C64','#F09E5B'],
+            harmony='other'
+        )
+
+        self.grey35 = colors(
+            name='grey35',
+            colors=['#423B36','#4E5756','#6F755B','#B59F5C','#E89856'],
+            harmony='other'
+        )
+
+        self.grey36 = colors(
+            name='grey36',
+            colors=['#FFFFFF','#CFECFF','#E3E3E3','#D9D9D9','#C4FFBD'],
+            harmony='other'
+        )
+
+        self.grey37 = colors(
+            name='grey37',
+            colors=['#BED442','#6AA64E','#1A1919','#383838','#247D71'],
+            harmony='other'
+        )
+
 
     def display_examples(self):
         schemes = np.random.choice(len(list(vars(self).values())), 16)
@@ -2684,5 +3313,3 @@ class ColorSchemes:
         # input is a list of hex values
         mpl_cmap = LinearSegmentedColormap.from_list('custom_scheme', custom_scheme)
         return mpl_cmap
-        
-        
