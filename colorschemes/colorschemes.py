@@ -2887,7 +2887,7 @@ class ColorSchemes:
 
         self.brown20 = colors(
             name='brown20',
-            colors=['#7085D6','#9B8FF7`','#FFD59A','#C58F54','#693C12'],
+            colors=['#7085D6','#9B8FF7','#FFD59A','#C58F54','#693C12'],
             harmony='complementary'
         )
 
