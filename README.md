@@ -117,5 +117,9 @@ cmap = ColorSchemes.custom_scheme_to_cmap(['#E73155', '#C72559', '#A7195E', '#86
 
 <img src="/images/custom_scheme_to_cmap.png" align="center" alt="Color Scheme Examples">
 
+References:
 ```
 [1] Monsef, D. A. (2011). Color Inspirations: More Than 3,000 Innovative Palettes from the Colourlovers. Com Community. Simon and Schuster.
+```
+Acknowledgements:
+A huge thanks to Dr. Kiri Choi for all of his help setting up my code for packaging on PyPI, and for his valuable suggestions about making continuous colormaps from discrete points.
